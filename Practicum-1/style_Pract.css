@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    font-family: Open Sans, sans-serif;
+    background-color: rgb(253, 246, 242);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-heading {
+    width: 100%;
+    background-color: rgb(243, 234, 229);
+    box-shadow: 0 0 5px rgb(235, 226, 222);
+    text-align: center;
+    padding: 25px 20px;
+    color: rgb(36, 30, 30);
+}
+
+h2 {
+    font-size: 40px;
+    text-shadow: #f8c026 0 0 10px;
+    margin-bottom: 10px;
+}
+
+.first-caption {
+    font-style: italic;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 400px;
+}
+
+.second-caption {
+    font-style: italic;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 400px;
+}
+
+#basket {
+    width: 110px;
+    background-image: url('images/88e67a6318eea178d180cbccae1275e1.png');
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding: 15px;
+    text-align: right;
+    font-size: 20px;
+    border: 2px solid rgb(172, 169, 169);
+    border-radius: 15px;
+    box-shadow: 0 0 3px;
+    margin: 15px 0;
+    margin-left: 1150px;
+}
+
+#prodacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.prodacts-cards {
+    margin-bottom: 40px;
+}
+
+.prodacts-cards img {
+    width: 350px;
+    height: 250px;
+}
+
+.prodacts-cards .name {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: rgb(63, 53, 53);
+    text-align: center;
+}
+
+.prodacts-cards .composition {
+    font-size: 15px;
+    padding: 5px 10px;
+    color: rgb(110, 97, 97);
+    text-align: center;
+}
+
+.prodacts-cards .price {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: rgb(226, 124, 8);
+    text-align: center;
+}
+
+.basket-form {
+    opacity: 0;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.basket-form .amount-prodact-basket {
+    width: 50px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.basket-form .prodact-basket {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(180, 176, 176);
+    color: rgb(235, 8, 8);
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 10px;
+}
+
+.basket-form:hover {
+    opacity: 1;
+}
+
+#return-to-prodacts {
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(110, 97, 97);
+    border: 2px solid rgb(172, 169, 169);
+    border-radius: 15px;
+    box-shadow: 0 0 3px;
+    margin: 15px 0;
+    margin-left: 100px;
+}
+
+#main-container .basket-name {
+    font-size: 20px;
+    color: rgb(58, 56, 56);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: 15px;
+}
+
+#basket-list-table,
+.order-field {
+    margin: 0 100px;
+}
+
+#basket-list-table .line {
+    margin-bottom: 60px;
+}
+
+#basket-list-table img {
+    width: 150px;
+    height: 100px;
+}
+
+#basket-list-table .pizzas-basket-name,
+#basket-list-table .pizzas-basket-num,
+#basket-list-table .pizzas-basket-price {
+    font-size: 20px;
+    padding-left: 70px;
+}
+
+#total-cost-place,
+.promo,
+.checkout {
+    font-size: 20px;
+    color: rgb(39, 33, 33);
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+
+.promo #promo-cod {
+    font-size: 15px;
+    padding: 5px;
+    margin: 20px 0;
+}
+
+#button-promo-code {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(180, 176, 176);
+    color: rgb(235, 8, 8);
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 10px;
+}
+
+.promo {
+    border-bottom: 1px solid rgb(41, 40, 40);
+}
+
+.checkout {
+    margin-top: 50px;
+}
+
+.checkout-field {
+    margin: 10px 350px;
+}
+
+.checkout-field table tr input {
+    font-size: 20px;
+}
+
+.checkout-field table td {
+    padding: 10px;
+}
+
+#make-order {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(180, 176, 176);
+    color: rgb(235, 8, 8);
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 10px;
+    margin: 40px 150px;
+}
+
+.sent-order {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
